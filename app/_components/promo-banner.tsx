@@ -3,7 +3,7 @@ import Image, { ImageProps } from "next/image";
 
 const PromoBanner = (props: ImageProps) => {
   return (
-    <div className="px-5 pt-6">
+    <div className="px-5">
       <Image
         width={0}
         height={0}
